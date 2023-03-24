@@ -1,0 +1,96 @@
+.sideBar-Container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  padding-top: 10px;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: rgb(164, 122, 14);
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.user-image {
+  position: absolute;
+  bottom: 55px;
+  right: 22px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.logOut-container {
+  position: absolute;
+  bottom: 0;
+  right: 22px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.link_text {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px; /* Change this to your desired max-width */
+  position: relative;
+}
+
+.link_text:hover::before {
+  content: attr(data-tooltip);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+}

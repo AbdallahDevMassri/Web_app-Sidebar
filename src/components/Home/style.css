@@ -1,0 +1,13 @@
+body {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.container-fluid {
+  display: block;
+  margin-left: 70px;
+}

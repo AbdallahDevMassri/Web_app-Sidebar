@@ -1,0 +1,77 @@
+.aboutMe-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #00a8ff;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 2rem;
+}
+
+.modal-body p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-footer button {
+  background-color: #00a8ff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-footer button:hover {
+  background-color: #fff;
+  color: #00a8ff;
+  border: 1px solid #00a8ff;
+}
+
+.modal-footer button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 20px;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+@media (max-width: 767px) {
+  .modal-content {
+    border-radius: 0;
+  }
+  .modal-dialog {
+    margin: 0;
+    max-width: 100%;
+  }
+}

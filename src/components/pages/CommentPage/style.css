@@ -1,0 +1,172 @@
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.comment-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment .like-container {
+  display: flex;
+  align-items: center;
+}
+
+.comment .like-badge,
+.comment .dislike-badge {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.comment .like-badge:hover,
+.comment .dislike-badge:hover {
+  text-decoration: underline;
+}
+
+.comment .like-badge .active,
+.comment .dislike-badge .active {
+  color: blue;
+}
+
+.comment .rating span {
+  margin-left: 5px;
+}
+
+/* Style for the header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the navigation menu */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Style for the main content section */
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the article section */
+article {
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: #333;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+  overflow: auto;
+  min-height: 50px;
+  max-height: 300px;
+}
+
+.comment .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment .text {
+  margin-bottom: 10px;
+}
+
+.comment .rating {
+  display: flex;
+  align-items: center;
+}
+
+.comment .like-container,
+.comment .dislike-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.comment .like-badge,
+.comment .dislike-badge {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comment .like-badge .like,
+.comment .dislike-badge .dislike {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.comment .like-badge .like.active,
+.comment .dislike-badge .dislike.active {
+  color: blue;
+}
+
+.comment .like-count,
+.comment .dislike-count {
+  margin-left: 5px;
+  font-size: 16px;
+}

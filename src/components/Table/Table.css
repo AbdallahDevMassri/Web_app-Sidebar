@@ -1,0 +1,16 @@
+.like-btn {
+  border: none;
+  background-color: inherit;
+}
+.image-tag {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+.table-container {
+  width: 900px !important;
+  text-align: center;
+  background-color: hsla(204, 16%, 94%, 0.511);
+
+  border-radius: 10px;
+}
