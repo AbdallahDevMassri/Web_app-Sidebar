@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
+
 import "./style.css";
 
 export const AboutComponent = () => {
@@ -10,22 +11,22 @@ export const AboutComponent = () => {
 
   return (
     <div className="aboutMe-container">
-      <h1 className="header">About Us</h1>
+      <h1 className="header">About Me</h1>
       <div className="about-content">
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          bibendum purus sit amet dignissim gravida. Etiam laoreet, justo et
-          ultricies faucibus, felis nisi commodo mauris, eget fermentum mauris
-          nibh in lorem. Fusce commodo ante ac velit tincidunt blandit. Nullam
-          malesuada arcu vel sapien ultricies, sed accumsan elit ultrices.
+          My Name is Abdallah Massri & I am a{" "}
+          <strong>Fullstack Developer</strong>
         </p>
+        <p>This is a simple resposive web </p>
+
         <Button variant="primary" onClick={handleShow}>
-          Learn More
+          More About
         </Button>
       </div>
+
       <Modal show={show} onHide={handleClose} className="about-modal">
         <Modal.Header closeButton>
-          <Modal.Title>About Our Company</Modal.Title>
+          <Modal.Title>More About me </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p>

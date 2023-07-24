@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo1 from "../pages/Images/logo1.jpg";
+
+import MyLogo from "../pages/Images/MyLogo.jpg";
 import LogoutButton from "../Auth/Logout.js";
 import { useAuth0 } from "@auth0/auth0-react";
 import {
@@ -13,7 +14,6 @@ import {
 import * as FaIcons from "react-icons/fa";
 import "./style.css";
 import { NavLink } from "react-router-dom";
-
 
 export const SidebarComponent = ({ children }) => {
   const { user } = useAuth0();
@@ -64,7 +64,7 @@ export const SidebarComponent = ({ children }) => {
       <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
         <div className="top_section">
           <div style={{ display: isOpen ? "block" : "none" }} className="logo">
-            <img src={logo1} alt="logo" width="100" height="100"></img>
+            <img src={MyLogo} alt="logo" width="100" height="100"></img>
           </div>
           <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
             <FaBars onClick={toggle} />

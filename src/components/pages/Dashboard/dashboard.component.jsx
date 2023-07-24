@@ -4,7 +4,7 @@ export const DashboardComponent = () => {
   return (
     <div>
       {" "}
-      <h1>Welcome to A&S APP</h1>
+      <h1>Welcome to My App</h1>
     </div>
   );
 };
